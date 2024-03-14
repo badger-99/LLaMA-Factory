@@ -11,13 +11,13 @@ services:
       - ./data:/app/data
       - ./output:/app/output
     ports:
-      - "7860:7860"
+      - '7860:7860'
     shm_size: 16G
     deploy:
       resources:
         reservations:
           devices:
-          - driver: nvidia
-            count: "3"
-            capabilities: [gpu]
+            - driver: nvidia
+              count: '3'
+              capabilities: [gpu]
     restart: unless-stopped
