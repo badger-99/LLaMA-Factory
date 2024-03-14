@@ -1,0 +1,6 @@
+{
+  "qwen1.5-72b-chat": {
+    "path": "models/qwen1.5-72b-chat_local",
+    "type": "llama"
+  }
+}

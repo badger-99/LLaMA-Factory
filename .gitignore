@@ -165,3 +165,4 @@ saves/
 cache/
 
 data/deepmoney.json
+/models
