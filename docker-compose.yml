@@ -11,8 +11,8 @@ services:
       - ./data:/app/data
       - ./output:/app/output
     ports:
-      - '7860:7860'
-    shm_size: 16G
+      - "7860:7860"
+    ipc: host
     deploy:
       resources:
         reservations:
