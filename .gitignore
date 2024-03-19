@@ -166,3 +166,5 @@ cache/
 
 data/deepmoney.json
 /models
+/hf_cache
+/output
