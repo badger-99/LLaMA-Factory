@@ -10,6 +10,8 @@ services:
       - ./hf_cache:/root/.cache/huggingface/
       - ./data:/app/data
       - ./output:/app/output
+      - ./models:/app/models
+      - ./configs:/app/configs
     ports:
       - "7860:7860"
     ipc: host
