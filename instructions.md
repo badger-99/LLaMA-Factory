@@ -1,0 +1,1 @@
+The following are instructions on how to use this repository to run LlaMa-Factory in  a docker container ans finetune a model with a custom dataset.
